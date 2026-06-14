@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-image: url(IN-en-20260608-TRIFECTA-perspective_d70af879-e407-4aee-8615-4c82210065d5_large.jpg);
+
+
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.logo {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav select {
+    background-color: #161313;
+    color: white;
+    padding: 7px 25px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    margin: 5px;
+
+
+}
+
+nav button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+    max-width: 800px;
+}
+
+.hero h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.email-box {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.email-box input {
+    width: 350px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #38383A;
+    border-radius: 5px;
+    background-color: #0C0303;
+
+}
+
+.email-box button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
